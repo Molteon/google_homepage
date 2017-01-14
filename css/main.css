@@ -6,6 +6,17 @@ table td{
 	color: rgba(128, 128, 128, 1);
 }
 
+
+td a{
+	
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: rgba(128, 128, 128, 1);
+	text-decoration: none;
+
+}
+
+
 }
 
 .others{
@@ -13,8 +24,8 @@ table td{
 }
 
 #menu-div{
-
 	float: right;
+	display: block;
 }
 
 #applist{
@@ -24,27 +35,49 @@ table td{
 	
 }
 
+#applist:hover{
+	filter: invert(0%);
+}
+
+
+
 #notif{
 	width: 18px;
 	height: 18px;  
 	filter: invert(50%); 
 }
 
+#notif:hover{
+	filter: invert(0%);
+}
+
 #glogo{
-	clear: right;
+
 	position: relative;
-	margin-left: 40%;
-	margin-top: 14%;
+}
+
+#center{
+
+	margin-top: 20%;
+	clear: both;
+	display: block;
+	
 }
 
 #search_bar{
-	position: absolute;
+	
 	display: block;
 	height: 34px;
 	width: 559px;
 	border:1px;
 	box-shadow: 1px 2px 7px 2px rgba(0,0,0,0.2);
-	margin-left: 27.5%;
 	margin-top: 19px;
 	padding-left: 10px;
+}
+
+#bts{
+
+	margin-top: 3%;
+	background-color: #F1F1F1;
+	padding: 5px;
 }
